@@ -1,0 +1,8 @@
+# Spring Properties
+spring:
+  kafka:
+    # Admin client config
+    bootstrap-servers: kafka:9092
+    # Spring kafka producer
+    producer:
+      bootstrap-servers: kafka:9092

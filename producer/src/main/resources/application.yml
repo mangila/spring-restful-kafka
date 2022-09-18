@@ -1,0 +1,17 @@
+# Server properties
+server:
+  port: 8082
+# Spring Properties
+spring:
+  kafka:
+    # Admin client config
+    bootstrap-servers: localhost:9094
+    # Spring kafka producer
+    producer:
+      bootstrap-servers: localhost:9094
+      client-id: employee-producer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+# Swagger properties
+springdoc:
+  show-actuator: true

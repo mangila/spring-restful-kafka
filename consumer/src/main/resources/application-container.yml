@@ -1,0 +1,5 @@
+# Spring Properties
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: kafka:9092
